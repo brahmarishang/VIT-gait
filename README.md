@@ -39,9 +39,6 @@ vitg_repo/
 │  └─ scripts/
 │     ├─ train.py
 │     └─ eval.py
-├─ notebooks/
-│  └─ mtech.ipynb
-├─ src/vitg_main.py  # original linearized export (reference)
 ├─ requirements.txt
 ├─ pyproject.toml
 └─ setup.cfg
