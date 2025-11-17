@@ -6,9 +6,6 @@ This folder contains a GitHub-friendly export of the notebook **mtech.ipynb**.
 ```
 vitg_repo/
 ├─ src/
-│  └─ vitg_main.py        # linearized Python script converted from the notebook
-├─ notebooks/
-│  └─ mtech.ipynb         # original notebook
 ├─ requirements.txt       # packages inferred from imports
 └─ README.md
 ```
