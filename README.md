@@ -27,15 +27,15 @@ python src/vitg_main.py
 ```
 vitg_repo/
 ├─ src/
-│  ├─ vitg/
-│  │  ├─ __init__.py
-│  │  ├─ data/
-│  │  │  └─ datasets.py
-│  │  ├─ models/
-│  │  │  └─ vitg.py
-│  │  └─ engine/
-│  │     ├─ train.py
-│  │     └─ eval.py
+│  
+│  ├─ __init__.py
+│  ├─ data/
+│  │  └─ datasets.py
+│  ├─ models/
+│  │  └─ vitg.py
+│  └─ engine/
+│  │    ├─ train.py
+│  │    └─ eval.py
 │  └─ scripts/
 │     ├─ train.py
 │     └─ eval.py
@@ -61,6 +61,3 @@ python src/scripts/eval.py --ckpt artifacts/vitg_best.pt --data-dir /path/to/tes
 ```
 
 ## Notes
-- The original notebook-derived script remains at `src/vitg_main.py` for reference.
-- Arrange your dataset into class-labeled subfolders under `train/`, `val/`, and `test/` as needed.
-- Adjust hyperparameters (`embed_dim`, `depth`, `num_heads`) to match your ablations.
