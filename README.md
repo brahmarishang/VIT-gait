@@ -1,4 +1,4 @@
-# VITG — Notebook Export
+# VITG 
 
 This folder contains a GitHub-friendly export of the notebook **mtech.ipynb**.
 
