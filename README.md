@@ -25,13 +25,13 @@ vitg_repo/
 └─ setup.cfg
 ```
 ## 📚 Dataset & Preparation
-CASIA-B (124 subjects, 11 viewpoints, NM/CL/BG) download from the official provider.
+CASIA-B (124 subjects, 11 viewpoints, NM/CL/BG) download from the official provider http://english.ia.cas.cn/db/201610/t20161026_169403.html.
 We provide simple tools to build silhouettes (MOG2) and GEIs:
-
+```bash
 python  src/tool/build_silhouettes.py
 python  src/tool/GEI.py
+```
 
-Folder layout:
 
 ## Quick start
 ```bash
