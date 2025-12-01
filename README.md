@@ -15,8 +15,11 @@ vitg_repo/
 │  │    ├─ train.py
 │  │    └─ eval.py
 │  └─ scripts/
-│     ├─ train.py
-│     └─ eval.py
+│   │    ├─ train.py
+│  │    └─ eval.py
+│  └─ tool/
+│     ├─ build_silhouettes.py
+│     └─ GEI.py
 ├─ requirements.txt
 ├─ pyproject.toml
 └─ setup.cfg
@@ -26,6 +29,11 @@ vitg_repo/
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt   # runtime deps
+python  src/tool/build_silhouettes.py
+python  src/tool/GEI.py
+
+
+
 # optional: pip install black isort flake8 ruff
 
 # Train
