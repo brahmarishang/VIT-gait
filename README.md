@@ -35,4 +35,4 @@ python src/scripts/train.py --train-dir /path/to/train --val-dir /path/to/val --
 python src/scripts/eval.py --ckpt artifacts/vitg_best.pt --data-dir /path/to/test --img-size 128
 ```
 
-## Notes
+
